@@ -18,7 +18,7 @@ export VENV_PATH="${USER_HOME}/.venv"
 
 # 1. Setup venv with python3.11 if not present
 if ! [ -d "$VENV_PATH" ]; then
-  python3.11 -m venv "$VENV_PATH"
+  python3 -m venv "$VENV_PATH"
 fi
 
 source "$VENV_PATH/bin/activate"
