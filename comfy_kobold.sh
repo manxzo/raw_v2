@@ -28,7 +28,8 @@ pip install --upgrade pip
 pip install comfy-cli
 
 # 3. Install ComfyUI using comfy-cli to $USER_HOME/comfy
-comfy install --workspace="${USER_HOME}/comfy"
+comfy --install-completion
+comfy --workspace="${USER_HOME}/comfy" install 
 
 # 4. Download KoboldCPP v1.92.1 CUDA 12.1 binary
 KOBOLDCPP_DIR="${USER_HOME}/koboldcpp"
